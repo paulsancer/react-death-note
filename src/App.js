@@ -30,9 +30,9 @@ function App() {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Notebook} />
-            <Route exact path="/book" component={Notebook} />
+            <Route exact path="/victims" component={Notebook} />
             <Route default component={NotFound} />
-            <Redirect to="/book" />
+            <Redirect to="/victims" />
           </Switch>
         </BrowserRouter>
       </div>
